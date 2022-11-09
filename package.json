@@ -3,6 +3,9 @@
   "type": "module",
   "version": "1.0.0",
   "description": "brain-games",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,6 +21,7 @@
   },
   "homepage": "https://github.com/olyakharlova/backend-project-44#readme",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "readline-sync": "^1.4.10"
   }
 }
