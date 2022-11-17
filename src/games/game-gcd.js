@@ -9,15 +9,15 @@ const getFactors = (x, y) => {
   const commonFactors = [];
   let gcd;
 
-  for (let i = 1; i <= x; i++) {
+  for (let i = 1; i <= x; i += 1) {
     if (x % i === 0) {
       xfactors.push(i);
     }
   }
 
-  for (let i = 1; i <= y; i++) {
+  for (let i = 1; i <= y; i += 1) {
     if (y % i === 0) {
-      yfactors.push(i)
+      yfactors.push(i);
     }
   }
 
