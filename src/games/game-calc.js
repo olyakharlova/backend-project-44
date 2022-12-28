@@ -2,29 +2,21 @@ import getRandomNumber from '../getRandomNumber.js';
 import playGame from '../index.js';
 
 const rule = 'What is the result of the expression?';
-const operations = ['+', '-', '*'];
-
-const getCorrectAnswer = (x, y, operation) => {
-  let answer;
-  switch (operation) {
-    case '+': answer = x + y;
-      break;
-    case '-': answer = x - y;
-      break;
-    case '*': answer = x * y;
-      break;
-    default:
-      // nothing
-  }
-  return answer;
+const operatorsAndExpressions = {
+  '+': (x, y) => x + y,
+  '-': (x, y) => x - y,
+  '*': (x, y) => x * y,
 };
+
+const operators = Object.keys(operatorsAndExpressions);
 
 const getQuestionAndAnswer = () => {
   const x = getRandomNumber();
   const y = getRandomNumber();
-  const operation = operations[getRandomNumber(0, operations.length)];
-  const question = `${x} ${operation} ${y}`;
-  const answer = getCorrectAnswer(x, y, operation);
+  const indexOfOperator = getRandomNumber(0, operators.length - 1);
+  const operator = operators[indexOfOperator];
+  const question = `${x} ${operator} ${y}`;
+  const answer = operatorsAndExpressions[operator](x, y);
   return [question, String(answer)];
 };
 
