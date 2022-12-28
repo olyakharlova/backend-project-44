@@ -4,7 +4,7 @@ console.log('Welcome to the Brain Games!');
 
 const userName = () => {
   const question = readlineSync.question('May I have your name? ');
-  console.log(`Hi, ${question}!`);
+  console.log(`Hello, ${question}!`);
 };
 
 export default userName;
