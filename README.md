@@ -10,3 +10,15 @@ Brain Games frontend project on hexlet.
 Installing the package, starting the first game - brain-even: demonstration of winning and losing.
 
 [![asciicast](https://asciinema.org/a/bnFp6Y0RfDRef7eK1WoEWgnx4.svg)](https://asciinema.org/a/bnFp6Y0RfDRef7eK1WoEWgnx4)
+
+brain-calc game winning and losing: 
+
+[![asciicast](https://asciinema.org/a/80zOooIkgXrvFqKx8eIZ6uQHw.svg)](https://asciinema.org/a/80zOooIkgXrvFqKx8eIZ6uQHw)
+
+brain-gcd: 
+
+[![asciicast](https://asciinema.org/a/ZF8UYDGrNIsWhkgx5c6uTJHf7.svg)](https://asciinema.org/a/ZF8UYDGrNIsWhkgx5c6uTJHf7)
+
+brain-progression: 
+
+[![asciicast](https://asciinema.org/a/ybps2mEOSR8YsgrX4rZRZQb9C.svg)](https://asciinema.org/a/ybps2mEOSR8YsgrX4rZRZQb9C)
