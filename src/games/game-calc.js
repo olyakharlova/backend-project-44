@@ -13,6 +13,8 @@ const getCorrectAnswer = (x, y, operation) => {
       break;
     case '*': answer = x * y;
       break;
+    default:
+      // nothing
   }
   return answer;
 };
