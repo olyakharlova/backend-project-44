@@ -22,3 +22,6 @@ brain-gcd:
 brain-progression: 
 
 [![asciicast](https://asciinema.org/a/ybps2mEOSR8YsgrX4rZRZQb9C.svg)](https://asciinema.org/a/ybps2mEOSR8YsgrX4rZRZQb9C)
+
+brain-prime:
+[![asciicast](https://asciinema.org/a/LFAsvyFu63Ihg2uMTaReqiq51.svg)](https://asciinema.org/a/LFAsvyFu63Ihg2uMTaReqiq51)
